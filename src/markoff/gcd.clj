@@ -1,5 +1,5 @@
 (ns markoff.gcd
-  (:use [markoff.core]))
+  (:require [markoff.core :refer :all]))
 
 (def gcd-pgm [{:theta "ab" :phi "" :a 2 :b 1}
               {:theta "" :phi "c" :a 0 :b 0}
