@@ -9,7 +9,7 @@ Pull requests are welcome, as is feedback in any form.
 	(require [markoff.core :refer :all])
 	(markoff input-str pgm-vec)
 
-Input-str should be a string. Pgm-vec should be a vector of maps, each containing the following keys:
+`Input-str` should be a string. `Pgm-vec` should be a vector of maps, each containing the following keys:
 - :theta, the substring to search for
 - :phi, the substring with which to replace theta if it is found
 - :a, the index of the map to jump to if theta is not found
