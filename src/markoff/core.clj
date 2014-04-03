@@ -8,8 +8,10 @@
          line 0]
     (let [{:keys [theta phi a b]} (nth pgm-vec line)]
       (if (= line a b)
-        sigma
+        (do (println sigma)
+            sigma)
         (let [newstr (st/replace-first sigma theta phi)]
-          (println sigma)
-          (recur newstr
-                 (if (identical? sigma newstr) a b)))))))
+          (if (identical? sigma newstr)
+            (recur newstr a)
+            (do (println sigma)
+                (recur newstr b))))))))
