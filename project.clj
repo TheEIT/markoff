@@ -1,4 +1,4 @@
-(defproject markoff "0.1.0"
+(defproject markoff "0.1.1"
   :description "Markovian string-rewriting automaton from TAOCP sec. 1.1"
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"

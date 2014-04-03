@@ -19,7 +19,7 @@ The names of the keys are taken from the symbols used by Knuth in the text. Righ
 
 Execution begins with the first map in the vector, whose index is 0.
 
-After each step, the working string is printed to standard output, whether or not it has changed.
+After each step, the working string is printed to standard output if it has changed.
 
 Execution terminates when directed to a map whose :a and :b tags both point to the map itself. Here is a simple example:
 
@@ -68,6 +68,7 @@ Entering `lein run` while in the `markoff` directory will demonstrate the use of
 ## Version history
 
 v0.1.0 released 6 March 2014 (first working version of core and gcd)
+v0.1.1 released 3 April 2014 (suppressed printing of unchanged working string)
 
 ## License
 
