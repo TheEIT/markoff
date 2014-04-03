@@ -50,7 +50,7 @@ Entering `lein run` while in the `markoff` directory will demonstrate the use of
 - Detection and handling of missing keys in program
 - Optional limit on time spent, or number or duration of steps taken
 -- What behavior when the limit is reached?
-- Output options: show working string at each step (as at present), only upon change, or not at all
+- Output options: show working string at each step, only upon change (as at present), or not at all
 - More verbose final output: number of steps, max length of string, proportion of search misses...
 - Additional sample applications
 -- Might this program actually be useful for something?
@@ -67,8 +67,9 @@ Entering `lein run` while in the `markoff` directory will demonstrate the use of
 
 ## Version history
 
-v0.1.0 released 6 March 2014 (first working version of core and gcd)
 v0.1.1 released 3 April 2014 (suppressed printing of unchanged working string)
+
+v0.1.0 released 6 March 2014 (first working version of core and gcd)
 
 ## License
 
